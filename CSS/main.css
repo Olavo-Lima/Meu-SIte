@@ -1,0 +1,32 @@
+main {
+    margin-top: 9em;
+}
+
+.arv {
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2px;
+}
+
+.arv2 {
+    text-align: center;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vist {
+    color: white;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.bor {
+    color: black;
+    background-image: url(https://images.pexels.com/photos/7031674/pexels-photo-7031674.jpeg);
+    margin: 1em;
+    padding: 0.2em;
+    border-radius: 20px;
+}
