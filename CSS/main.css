@@ -10,17 +10,23 @@ main {
 }
 
 .arv2 {
+    padding: 1em;
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 24, 45);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .vist {
-    color: white;
+    margin-bottom: 10px;
+    color: rgb(64, 66, 40);
     display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     text-decoration: none;
+}
+
+.vist:hover {
+    color: #000000
 }
 
 .bor {
@@ -29,4 +35,14 @@ main {
     margin: 1em;
     padding: 0.2em;
     border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.github {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
