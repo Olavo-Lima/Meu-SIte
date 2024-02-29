@@ -21,8 +21,6 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(3, 0, 47);
     font-size: 15px;
-    margin-left: 4em;
-    margin-right: 4em;
     margin-bottom: 3em;
 }
 
@@ -31,6 +29,7 @@ body {
     height: 400px;
     border-radius: 50px;
     margin-right: 14em;
+    margin-left: 4em;
 }
 
 .text {
@@ -51,10 +50,6 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    position: fixed; /* Fixa o cabeçalho no topo da janela de visualização */
-    top: 0; /* Posiciona o cabeçalho no topo */
-    width: 100%; /* Define a largura do cabeçalho para cobrir toda a largura da janela */
-    z-index: 1000;
 }
 
 .list {
@@ -91,7 +86,7 @@ a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     color: white;
-    display: flex;
+    display: none;
 }
 
 .perfil {
@@ -101,6 +96,7 @@ a {
 }
 
 .title {
+    color: rgb(5, 5, 90);
     display: flex;
     text-align: center;
     justify-content: center;
